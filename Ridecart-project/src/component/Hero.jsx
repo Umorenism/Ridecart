@@ -83,6 +83,7 @@ import zig4 from "../assets/rightrid2.svg";
 import Services from "./Services";
 import AboutUs from "./About";
 import Why from "./Why";
+import Download from "./Download";
 
 
 const Hero = () => {
@@ -158,6 +159,7 @@ const Hero = () => {
       <Services />
       <AboutUs/>
       <Why/>
+      <Download/>
     </>
   );
 };

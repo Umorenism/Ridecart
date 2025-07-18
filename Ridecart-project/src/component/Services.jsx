@@ -6,22 +6,22 @@ import sta from "../assets/zigzigcard.svg";
 
 const cardData = [
   {
-    title: "Card One",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    image: "https://via.placeholder.com/600x400",
-    buttons: [{ text: "Book Ride", position: "left" }],
+    title: "Dispatch Rides",
+    description: "Send and receive \n packages effortlessly!",
+    image: "https://images.pexels.com/photos/13432008/pexels-photo-13432008.jpeg",
+    buttons: [{ text: "Get Started", position: "left" }],
   },
   {
-    title: "Card Two",
-    description: "Integer nec odio. Praesent libero. Sed cursus ante dapibus.",
-    image: "https://via.placeholder.com/600x400",
-    buttons: [{ text: "More Info", position: "middle" }],
+    title: "Need to shop?",
+    description: "Browse and buy from trusted \n vendors without leaving home.",
+    image: "https://images.pexels.com/photos/6721907/pexels-photo-6721907.jpeg",
+    buttons: [{ text: "Shop Now", position: "middle" }],
   },
   {
-    title: "Card Three",
-    description: "Sed nisi. Nulla quis sem at nibh elementum imperdiet.",
-    image: "https://via.placeholder.com/600x400",
-    buttons: [{ text: "Request", position: "left" }],
+    title: "Errands? Consider it done?",
+    description: "Short on time? Let us handle \n your daily tasks.",
+    image: "https://images.pexels.com/photos/6969845/pexels-photo-6969845.jpeg",
+    buttons: [{ text: "Book Now", position: "left" }],
   },
 ];
 
@@ -54,7 +54,7 @@ export default function Services() {
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-start items-start p-4">
                   <motion.h2
-                    className="text-white text-2xl font-semibold"
+                    className="text-white text-2xl font-semibold  "
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.3, duration: 0.6 }}
@@ -62,7 +62,7 @@ export default function Services() {
                     {card.title}
                   </motion.h2>
                   <motion.p
-                    className="text-white mt-2 text-sm"
+                    className="text-white mt-2 text-sm whitespace-pre-line"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ delay: 0.5, duration: 0.6 }}
@@ -77,7 +77,7 @@ export default function Services() {
                         key={i}
                         className={`px-4 py-2 text-sm rounded-[11.5px] transition duration-300 ${
                           btn.position === "middle"
-                            ? "bg-black text-white border border-white"
+                            ? "bg-[#1F2336] text-white "
                             : "bg-[#EB203E] text-white"
                         }`}
                         initial={{ opacity: 0 }}

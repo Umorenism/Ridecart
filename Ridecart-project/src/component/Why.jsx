@@ -1,30 +1,27 @@
-
-
-
-
-
-import React, { useState } from 'react';
-import { motion } from 'framer-motion';
-import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { BiSolidQuoteAltLeft } from "react-icons/bi";
-
 
 const testimonials = [
   {
     title: "RideCart makes commuting\nso easy!",
-    content: "I never have to worry about who would pick up my deliveries, and the riders are always professional and on time. The app is smooth, and I love the real-time tracking feature. Highly recommended!",
+    content:
+      "I never have to worry about who would pick up my deliveries, and the riders are always professional and on time. The app is smooth, and I love the real-time tracking feature. Highly recommended!",
     author: "Elizabeth MK",
     subtitle: "6 Months with RideCart",
   },
   {
     title: "Reliable and fast delivery!",
-    content: "RideCart has never let me down. Their riders are courteous, and the delivery always arrives on time. I use it for my business regularly.",
+    content:
+      "RideCart has never let me down. Their riders are courteous, and the delivery always arrives on time. I use it for my business regularly.",
     author: "James T.",
     subtitle: "1 Year with RideCart",
   },
   {
     title: "Excellent customer service.",
-    content: "Every time I’ve had a question, support was quick to respond. That’s rare these days! RideCart is my go-to app.",
+    content:
+      "Every time I’ve had a question, support was quick to respond. That’s rare these days! RideCart is my go-to app.",
     author: "Maria L.",
     subtitle: "8 Months with RideCart",
   },
@@ -88,19 +85,15 @@ export default function Why() {
 
           {/* Testimonial Content */}
           <div className="space-y-8 ">
-         
-  <div className="relative max-w-md w-full">
-  {/* Quote icon behind the text */}
-  <BiSolidQuoteAltLeft className="absolute top-0 left-0 text-[60px] text-[#D7D7D7] " />
-  
-  {/* Testimonial Title */}
- <h3 className="relative w-full text-xl sm:text-2xl md:text-[30px] font-semibold pl-4 max-w-[1200px] whitespace-pre-line">
-  {currentTestimonial.title}
-</h3>
+            <div className="relative max-w-md w-full">
+              {/* Quote icon behind the text */}
+              <BiSolidQuoteAltLeft className="absolute top-0 left-0 text-[60px] text-[#D7D7D7] " />
 
-</div>
-
-
+              {/* Testimonial Title */}
+              <h3 className="relative w-full text-xl sm:text-2xl md:text-[30px] font-semibold pl-4 max-w-[1200px] whitespace-pre-line">
+                {currentTestimonial.title}
+              </h3>
+            </div>
 
             <p className="text-xs text-[#1F233699] sm:text-sm max-w-md">
               {currentTestimonial.content}
