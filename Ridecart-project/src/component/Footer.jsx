@@ -86,7 +86,7 @@ export default function Footer() {
           {/* About */}
           <div>
             <h1 className="font-[600] text-[18px] sm:text-[20px] mb-2">About</h1>
-            <ul className="space-y-1 text-sm sm:text-base">
+            <ul className="space-y-1 text-[#1F233699] text-sm sm:text-base">
               <li>About Us</li>
               <li>Careers</li>
               <li>Contact Us</li>
@@ -96,7 +96,7 @@ export default function Footer() {
           {/* Services */}
           <div>
             <h1 className="font-[600] text-[18px] sm:text-[20px] mb-2">Services</h1>
-            <ul className="space-y-1 text-sm sm:text-base">
+            <ul className="space-y-1 text-[#1F233699] text-sm sm:text-base">
               <li>Logistics</li>
               <li>E-Commerce</li>
               <li>Laundry Services</li>
@@ -109,7 +109,7 @@ export default function Footer() {
           {/* Legal */}
           <div>
             <h1 className="font-[600] text-[18px] sm:text-[20px] mb-2">Legal</h1>
-            <ul className="space-y-1 text-sm sm:text-base">
+            <ul className="space-y-1 text-[#1F233699] text-sm sm:text-base">
               <li>Privacy</li>
               <li>Terms</li>
               <li>Cookie Policy</li>
@@ -120,7 +120,7 @@ export default function Footer() {
         <hr className="border-gray-300" />
 
         {/* Copyright */}
-        <h1 className="flex items-center gap-2 justify-center mt-4 text-sm sm:text-base text-center">
+        <h1 className="flex items-center gap-2 justify-center text-[#1F2336] mt-4 text-sm sm:text-base text-center">
           <FaAt />
           2025 RideCart.com All Rights Reserved
         </h1>
