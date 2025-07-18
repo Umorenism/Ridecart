@@ -82,6 +82,7 @@ import zig3 from "../assets/zigright.svg";
 import zig4 from "../assets/rightrid2.svg";
 import Services from "./Services";
 import AboutUs from "./About";
+import Why from "./Why";
 
 
 const Hero = () => {
@@ -156,6 +157,7 @@ const Hero = () => {
       </section>
       <Services />
       <AboutUs/>
+      <Why/>
     </>
   );
 };
