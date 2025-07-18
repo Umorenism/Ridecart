@@ -47,7 +47,7 @@ const AppHeader = () => {
         </div>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex space-x-6">
+        <nav className="hidden md:flex items-center space-x-6">
           <a href="#" className="font-semibold text-[18px] text-[#1F2336]">Home</a>
          {/* Services with dropdown */}
           <div className="relative">
@@ -59,7 +59,9 @@ const AppHeader = () => {
             </button>
 
             {showDropdown && (
-              <div className="absolute top-full mt-2 right-0 bg-white border shadow-lg rounded-lg py-2 w-48 z-50">
+              <div className="absolute top-full mt-2 right-0  bg-gray-500
+              
+              border shadow-lg rounded-[8px] py-2 w-48 z-50">
                 <a href="#" className="block px-4 py-2 text-sm hover:bg-gray-100">Web Development</a>
                 <a href="#" className="block px-4 py-2 text-sm hover:bg-gray-100">Mobile Apps</a>
                 <a href="#" className="block px-4 py-2 text-sm hover:bg-gray-100">SEO Services</a>

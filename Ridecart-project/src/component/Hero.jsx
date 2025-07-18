@@ -94,7 +94,7 @@ const Hero = () => {
         <img
           src={riderLeft}
           alt="Left Rider"
-          className="absolute w-[50px] z-10 
+          className="absolute hidden sm:block w-[50px] z-10 
             left-[50%] top-[80px] transform -translate-x-1/2
             md:top-[100px] md:left-[320px] md:translate-x-0 md:w-[70px]"
         />
@@ -102,7 +102,7 @@ const Hero = () => {
         <img
           src={zig}
           alt=""
-          className="absolute w-[200px] z-10 
+          className="absolute hidden sm:block w-[200px] z-10 
             top-[140px] left-[50%] transform -translate-x-1/2
             md:top-[160px] md:left-[0px] md:translate-x-0 md:w-[390px]"
         />
@@ -110,7 +110,7 @@ const Hero = () => {
         <img
           src={zig2}
           alt=""
-          className="absolute w-[350px] z-10 
+          className="absolute hidden sm:block w-[350px] z-10 
             top-[240px] right-[50%] transform translate-x-1/2
             md:top-[58px] md:right-[0px] md:translate-x-0 md:w-[1008px]"
         />
@@ -119,7 +119,7 @@ const Hero = () => {
         <img
           src={riderRight}
           alt="Right Rider"
-          className="absolute w-[50px] z-10 
+          className="absolute hidden sm:block w-[50px] z-10 
             bottom-[180px] left-[50%] transform -translate-x-1/2
             md:bottom-[180px] md:right-[500px] md:left-auto md:translate-x-0 md:w-[70px]"
         />
@@ -127,7 +127,7 @@ const Hero = () => {
         <img
           src={zig3}
           alt=""
-          className="absolute w-[300px] h-auto z-10 
+          className="absolute hidden sm:block w-[300px] h-auto z-10 
             bottom-[20px] right-[50%] transform translate-x-1/2 
             md:bottom-[30px] md:right-[0] md:translate-x-0 md:w-[560px] md:h-[650px]"
         />
@@ -135,7 +135,7 @@ const Hero = () => {
         <img
           src={zig4}
           alt=""
-          className="absolute w-[300px] h-auto z-10 
+          className="absolute hidden sm:block w-[300px] h-auto z-10 
             bottom-[90px] left-[50%] transform -translate-x-1/2
             md:bottom-[51px] md:left-[0] md:translate-x-0 md:w-[837px] md:h-[420px]"
         />
