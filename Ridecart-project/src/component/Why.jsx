@@ -7,21 +7,21 @@ const testimonials = [
   {
     title: "RideCart makes commuting\nso easy!",
     content:
-      "I never have to worry about who would pick up my deliveries, and the riders are always professional and on time. The app is smooth, and I love the real-time tracking feature. Highly recommended!",
+      "I never have to worry about who would pick up my deliveries, \n and the riders are always professional and on time. The app is smooth, and I love the real-time tracking feature. Highly recommended!",
     author: "Elizabeth MK",
     subtitle: "6 Months with RideCart",
   },
   {
     title: "Reliable and fast delivery!",
     content:
-      "RideCart has never let me down. Their riders are courteous, and the delivery always arrives on time. I use it for my business regularly.",
+      "RideCart has never let me down. Their riders are courteous,\n and the delivery always arrives on time. I use it for my business regularly.",
     author: "James T.",
     subtitle: "1 Year with RideCart",
   },
   {
     title: "Excellent customer service.",
     content:
-      "Every time I’ve had a question, support was quick to respond. That’s rare these days! RideCart is my go-to app.",
+      "Every time I’ve had a question, support was \n quick to respond. That’s rare these days! RideCart is my go-to app.",
     author: "Maria L.",
     subtitle: "8 Months with RideCart",
   },

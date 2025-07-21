@@ -33,7 +33,7 @@ export default function Services() {
     const interval = setInterval(() => {
       // Rotate indexes right by 1:
       setImageIndexes(([a, b, c]) => [c, a, b]);
-    }, 5000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, []);

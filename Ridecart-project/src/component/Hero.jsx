@@ -150,7 +150,7 @@ const Hero = () => {
             both with ease! Our dispatch service connects you to rides and
             deliveries in one seamless app.
           </p>
-          <div className="flex flex-col md:flex-row items-center justify-center gap-4 mt-6">
+          <div className="flex  md:flex-row items-center justify-center gap-4 mt-6">
             <img src={googlePlay} alt="Google Play" className="w-36" />
             <img src={appStore} alt="App Store" className="w-36" />
           </div>

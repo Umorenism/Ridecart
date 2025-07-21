@@ -12,6 +12,7 @@ import Contact from "./component/Contact";
 import AppFooter from "./component/Footer";
 import Services from "./component/Services";
 
+
 // const { Content, Footer } = Layout;
 
 export default function App() {
@@ -19,7 +20,7 @@ export default function App() {
 
   return (
     <div >
-      <AppHeader/>
+       <AppHeader/>
       <div className="pt-20">
         <Routes>
           <Route path="/" element={<Hero />} />
@@ -29,7 +30,8 @@ export default function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
-       <AppFooter/>
+       <AppFooter/> 
+      
     </div>
   );
 }
