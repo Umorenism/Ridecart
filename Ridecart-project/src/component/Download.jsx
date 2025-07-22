@@ -1,10 +1,15 @@
 
+
+
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import qrc from '../assets/wpf_qr-code.svg';
+import QRCode from 'react-qr-code'; // ✅ this works with Vite
 
 export default function Download() {
   const [activeTab, setActiveTab] = useState('rider');
+
+  const riderLink = 'https://play.google.com/store/apps/details?id=com.yourapp.rider';
+  const ecomLink = 'https://apps.apple.com/app/id0000000000';
 
   return (
     <motion.div
@@ -14,7 +19,6 @@ export default function Download() {
       className="min-h-[626px] bg-[#EFF0F6] flex justify-center items-center p-4"
     >
       <div className="container max-w-[1270px] mx-auto flex-col md:flex-row md:gap-8 items-center justify-center py-8 md:py-16">
-        
         {/* Heading */}
         <div className="text-black text-center w-full justify-center flex items-center flex-col mb-10">
           <h1 className="text-[30px] sm:text-[40px] font-[600] text-[#1F2336]">Download our App</h1>
@@ -27,8 +31,11 @@ export default function Download() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-black w-full px-4">
           {/* QR Code */}
           <div className="w-full flex justify-center">
-            <div className="h-[300px] sm:h-[432px] w-[300px] sm:w-[432px] border">
-              <img src={qrc} alt="qr" className="h-full w-full sm:object-cover object-contain" />
+            <div className="h-[300px] sm:h-[432px] w-[300px] sm:w-[432px]  flex items-center justify-center p-4">
+              <QRCode
+                value={activeTab === 'rider' ? riderLink : ecomLink}
+                size={350}
+              />
             </div>
           </div>
 
@@ -92,7 +99,4 @@ export default function Download() {
     </motion.div>
   );
 }
-
-
-
 
